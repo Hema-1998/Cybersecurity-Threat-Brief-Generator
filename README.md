@@ -1,11 +1,12 @@
 # Cybersecurity Threat Brief Generator
 
-This is a lightweight web app that uses small language models (<7B parameters) to summarize long security advisories into short, plain-English briefs.
+Cybersecurity Threat Brief Generator is a lightweight web app designed to simplify security analysis by automatically summarizing long CVE/NVD/vendor advisories into concise, plain-English briefs. It helps security analysts and students quickly understand vulnerabilities, their impact, and recommended mitigations without reading lengthy technical documents.
 
-## Features
-- Advisory summarization
-- Impact extraction
-- Mitigation suggestions
+## Key Features:
+• Advisory Summarization: Converts long CVE or vendor advisories into short, actionable summaries.
+• Impact & Mitigation Extraction: Highlights affected systems, severity, and recommended fixes.
+• PDF Export: Allows downloading structured briefs for documentation or sharing.
+• Local, Privacy-Friendly Execution: Runs using small Hugging Face or Ollama models without external API calls.
 
 ## Installation
 1. Clone or unzip the project
